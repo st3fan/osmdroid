@@ -1,3 +1,9 @@
 language: java
 jdk:
 - oraclejdk7
+after_success:
+- mvn deploy
+- "./publish.sh"
+env:
+  global:
+    secure: H7PGjw/vDdADK9vG5GIG0qWfRhvs6h3PIStBTOhhkZGG5+Le3qcMV9aI2ef+NCYYXxHfSBrZOBQPIBSJ/nbyonqQI1xgWRjrw36d4fpGIx+S07yqFZwe1CAU9gQQSZrulli/1DbMQLA1U9wKmWHdvQXBorSWLj640dk/E7urPUw=
