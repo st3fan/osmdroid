@@ -50,4 +50,11 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>file:target/repo</url>
+        </repository>
+    </distributionManagement>
+
 </project>
