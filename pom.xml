@@ -6,7 +6,7 @@
     <groupId>org.osmdroid</groupId>
     <artifactId>osmdroid-android</artifactId>
     <packaging>jar</packaging>
-    <version>4.3-SNAPSHOT</version>
+    <version>4.3-MOZSTUMBLER</version>
 
 
     <name>OSMdroid Android</name>
